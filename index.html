@@ -13,6 +13,7 @@
         href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./css/style.css">
     <title>Facundo Poggi</title>
 </head>
@@ -81,9 +82,10 @@
         </section>
 
         <section>
+            <div data-aos="fade-up">
                 <h2 class="tituloPortfolio _tituloPortfolioSobreMi" id="layoutPortfolioSobreMi">SOBRE MÍ</h2>
                 <hr class="lineaNav lineaNav_2">
-
+            </div>
             <div class="divCenter">
                 <p class="parrafo _sobreMiP">Siempre estoy intentando expandir mi conocimiento aprendiendo cosas nuevas.
                     Soy una persona <span class="resaltador">muy organizada</span> y con una <span
@@ -97,7 +99,9 @@
 
         <section>
             <div class="divPortfolio">
-                <h2 class="tituloPortfolio" id="layoutPortfolio">PORTFOLIO</h2>
+                <div data-aos="fade-up">
+                    <h2 class="tituloPortfolio" id="layoutPortfolio">PORTFOLIO</h2>
+                </div>
 
                 <div class="portfolioSection">
                     <div class="contenidoPortfolio">
@@ -123,10 +127,12 @@
                     <div class="contenidoPortfolio _3 margint-3">
                         <h3 class="proyectos">2022</h3>
                     </div>
-                    <div class="contenidoPortfolio _4">
-                        <a target="_blank" href="https://facupoggi.github.io/fly-with-us/index.html">
-                            <img class="imgPortfolio" src="./img/fly-with-us.jpg" alt="">
-                        </a>
+                    <div data-aos="fade-up">
+                        <div class="contenidoPortfolio _4">
+                            <a target="_blank" href="https://facupoggi.github.io/fly-with-us/index.html">
+                                <img class="imgPortfolio" src="./img/fly-with-us.jpg" alt="">
+                            </a>
+                        </div>
                     </div>
                     <br>
                     <div class="contenidoPortfolio margint-3">
@@ -138,10 +144,12 @@
                     <div class="contenidoPortfolio _3 margint-3">
                         <h3 class="proyectos">2022</h3>
                     </div>
-                    <div class="contenidoPortfolio _4 imgWearIt">
-                        <a target="_blank" href="https://facupoggi.github.io/tienda/">
-                            <img class="imgPortfolio " src="./img/wear-it.jpg" alt="">
-                        </a>
+                    <div data-aos="fade-up">
+                        <div class="contenidoPortfolio _4 imgWearIt">
+                            <a target="_blank" href="https://facupoggi.github.io/tienda/">
+                                <img class="imgPortfolio " src="./img/wear-it.jpg" alt="">
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -151,6 +159,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="./js/script.js"></script>
 </body>
 
