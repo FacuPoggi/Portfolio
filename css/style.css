@@ -268,6 +268,17 @@ body div header nav {
     color: #DDDDDD;
 }
 
+.CV {
+    text-decoration: none;
+    font-size: 32px;
+    color: #DDDDDD;
+    margin-left: 5px;
+}
+
+.CV:hover {
+    color: #DDDDDD;
+}
+
 ._tituloPortfolioSobreMi {
     margin-top: 350px;
 }
