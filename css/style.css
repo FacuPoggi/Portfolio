@@ -97,6 +97,10 @@ body {
     font-family: 'Noto Sans', sans-serif;
 }
 
+.container-fluid {
+    align-items: baseline !important;
+}
+
 .barraNavegacion {
     color: #DDDDDD !important;
 }
@@ -326,7 +330,7 @@ body div header nav {
 }
 
 .contenidoPortfolio {
-    justify-self: flex-start;
+    justify-self: center;
     grid-column: 1;
     align-self: center;
 }
@@ -362,4 +366,1060 @@ body div header nav {
 
 .imgWearIt {
     max-width: 60%;
+}
+
+
+/* responsive design */
+
+
+@media screen and (max-width: 1589px) {
+    .fotoCV {
+        left: 250%;
+    }
+
+    ._sobreMiP {
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 1404px) {
+    .fotoCV {
+        left: 215%;
+        width: 350px;
+    }
+
+    ._sobreMiP {
+        font-size: 25px;
+    }
+
+    .tituloPortfolio {
+        font-size: 90px;
+    }
+
+    .tituloGrid {
+        font-size: 24px;
+    }
+
+    .contenidoGrid {
+        font-size: 24px;
+    }
+
+    .imgFlyWithUs {
+        width: 75%;
+    }
+
+    .lineaNav {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+
+    .fotoCV {
+        left: 200%;
+    }
+
+    .barraPNavM {
+        margin-left: 125px !important;
+    }
+
+    .lineaNav {
+        margin-left: 125px;
+    }
+
+    .tituloHero {
+        margin-left: 125px;
+    }
+
+    .subtituloHero {
+        margin-left: 125px;
+    }
+
+    .parrafo {
+        margin-left: 125px;
+    }
+
+    .ciudad {
+        margin-left: 125px;
+    }
+
+    .mail {
+        margin-left: 125px;
+    }
+
+    .divContacto {
+        margin-left: 125px;
+    }
+
+    .fontBlock {
+        margin-left: 125px;
+    }
+
+    ._BN1 {
+        margin-right: 180px !important;
+    }
+
+    .tituloPortfolio {
+        margin-left: 125px;
+    }
+
+    ._sobreMiP {
+        margin-left: 0px;
+    }
+
+    .portfolioSection {
+        margin-left: 125px;
+    }
+
+    @keyframes mainBlock {
+        0% {
+            width: 0%;
+            left: 0;
+        }
+
+        50% {
+            width: 190%;
+            left: 0;
+        }
+
+        100% {
+            width: 0;
+            left: 190%;
+        }
+    }
+}
+
+@media screen and (max-width: 1230px) {
+
+    .fotoCV {
+        width: 320px;
+    }
+
+    .tituloHero {
+        font-size: 100px;
+    }
+
+    .fontTitle {
+        height: 220px;
+    }
+
+    @keyframes mainBlock {
+        0% {
+            width: 0%;
+            left: 0;
+        }
+
+        50% {
+            width: 150%;
+            left: 0;
+        }
+
+        100% {
+            width: 0;
+            left: 150%;
+        }
+    }
+
+    .tituloPortfolio {
+        font-size: 75px;
+    }
+
+    ._sobreMiP {
+        font-size: 23px;
+    }
+
+    .tituloGrid {
+        font-size: 20px;
+    }
+
+    .contenidoGrid {
+        font-size: 18px;
+    }
+
+    .imgWearIt {
+        max-width: 55%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+
+    .goTop {
+        right: 0px;
+    }
+
+    .show .goTopButton {
+        width: 50px;
+        height: 50px;
+    }
+
+    .flecha {
+        font-size: 25px !important;
+    }
+
+    @keyframes popup {
+        0% {
+            width: 0px;
+            height: 0px;
+        }
+
+        50% {
+            width: 60px;
+            height: 60px;
+        }
+
+        100% {
+            width: 50px;
+            height: 50px;
+        }
+    }
+
+    .fotoCV {
+        width: 280px;
+        bottom: -50px;
+        left: 220%;
+    }
+
+    .tituloHero {
+        font-size: 75px;
+    }
+
+    .fontBlock {
+        top: -35%;
+    }
+
+    @keyframes mainBlock {
+        0% {
+            width: 0%;
+            left: 0;
+        }
+
+        50% {
+            width: 130%;
+            left: 0;
+        }
+
+        100% {
+            width: 0;
+            left: 130%;
+        }
+    }
+
+    .subtituloHero {
+        margin-top: -10px;
+        font-size: 18px;
+    }
+
+    .parrafo {
+        margin-top: 10px;
+        font-size: 10px;
+    }
+
+    .ciudad {
+        margin-top: 25px;
+    }
+
+    .divContacto {
+        margin-top: 10px;
+    }
+
+    .icono {
+        font-size: 28px !important;
+    }
+
+    .CV {
+        font-size: 25px;
+    }
+
+    .tituloPortfolio {
+        font-size: 60px;
+    }
+
+    ._sobreMiP {
+        margin-bottom: 0px;
+        margin-top: 80px;
+        font-size: 20px;
+    }
+
+    .tituloGrid {
+        font-size: 18px;
+    }
+
+    .contenidoGrid {
+        font-size: 15px;
+    }
+
+    .imgFlyWithUs {
+        width: 70%;
+    }
+
+    .imgWearIt {
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    .navbar-toggler {
+        margin-right: 95px !important;
+    }
+
+    .barraNavM {
+        margin-left: 125px;
+        margin-top: 20px !important;
+    }
+
+    .fotoCV {
+        width: 250px;
+        bottom: -70px;
+        left: 215%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .navbar-toggler {
+        margin-right: 73px !important;
+    }
+
+    .goTop {
+        right: -10px;
+    }
+
+    .show .goTopButton {
+        width: 45px;
+        height: 45px;
+    }
+
+    .flecha {
+        font-size: 20px !important;
+    }
+
+    @keyframes popup {
+        0% {
+            width: 0px;
+            height: 0px;
+        }
+
+        50% {
+            width: 55px;
+            height: 55px;
+        }
+
+        100% {
+            width: 45px;
+            height: 45px;
+        }
+    }
+}
+
+
+@media screen and (max-width: 860px) {
+
+    .fotoCV {
+        width: 220px;
+        left: 225%;
+    }
+
+    .tituloHero {
+        font-size: 50px;
+    }
+
+    .fontBlock {
+        top: -50%;
+    }
+
+    .fontTitle {
+        height: 160px;
+    }
+
+    .fontStyle {
+        height: 180px;
+    }
+
+    @keyframes mainBlock {
+        0% {
+            width: 0%;
+            left: 0;
+        }
+
+        50% {
+            width: 85%;
+            left: 0;
+        }
+
+        100% {
+            width: 0;
+            left: 85%;
+        }
+    }
+
+
+    .subtituloHero {
+        font-size: 15px;
+    }
+
+    .parrafo {
+        font-size: 8px;
+    }
+
+    .ciudad {
+        font-size: 12px;
+    }
+
+    .mail {
+        font-size: 18px;
+    }
+
+    .divContacto {
+        margin-top: 10px;
+    }
+
+    .icono {
+        font-size: 20px !important;
+    }
+
+    .CV {
+        font-size: 20px;
+    }
+
+    ._tituloPortfolioSobreMi {
+        margin-top: 180px;
+        font-size: 45px;
+    }
+
+    ._sobreMiP {
+        font-size: 15px;
+    }
+
+    .tituloPortfolio {
+        font-size: 45px;
+    }
+
+    .tituloGrid {
+        font-size: 15px;
+    }
+
+    .contenidoGrid {
+        font-size: 12px;
+    }
+
+    .imgFlyWithUs {
+        width: 65%;
+    }
+
+    .imgWearIt {
+        max-width: 45%;
+    }
+}
+
+@media screen and (max-width: 830px) {
+
+    .navbar-toggler {
+        margin-right: 7% !important;
+    }
+
+    .goTop {
+        right: -20px;
+    }
+
+    .show .goTopButton {
+        width: 35px;
+        height: 35px;
+    }
+
+    .flecha {
+        font-size: 15px !important;
+    }
+
+    @keyframes popup {
+        0% {
+            width: 0px;
+            height: 0px;
+        }
+
+        50% {
+            width: 45px;
+            height: 45px;
+        }
+
+        100% {
+            width: 35px;
+            height: 35px;
+        }
+    }
+}
+
+@media screen and (max-width: 785px) {
+
+    .navbar-toggler {
+        margin-right: 12% !important;
+    }
+
+    .lineaNav {
+        margin-left: 80px;
+        border: 1px;
+    }
+
+    .barraPNavM {
+        font-size: 12px;
+        margin-left: 80px !important;
+    }
+
+    .barraNavM {
+        margin-left: 80px;
+        margin-top: 8px !important;
+    }
+
+    .fotoCV {
+        width: 180px;
+        border-radius: 25px;
+    }
+
+    .tituloHero {
+        margin-left: 80px;
+    }
+
+    @keyframes mainBlock {
+        0% {
+            width: 0%;
+            left: -15%;
+        }
+
+        50% {
+            width: 75%;
+            left: -15%;
+        }
+
+        100% {
+            width: 0;
+            left: 60%;
+        }
+    }
+
+    .subtituloHero {
+        margin-left: 80px;
+    }
+
+    .parrafo {
+        margin-left: 80px;
+    }
+
+    .ciudad {
+        margin-left: 80px;
+    }
+
+    .mail {
+        margin-left: 80px;
+    }
+
+    .divContacto {
+        margin-left: 80px;
+    }
+
+    .tituloPortfolio {
+        margin-left: 80px;
+        margin-top: 275px;
+        font-size: 40px;
+    }
+
+    ._sobreMiP {
+        margin-left: 0px;
+        margin-top: 0px;
+        font-size: 13px;
+    }
+
+    .portfolioSection {
+        margin-left: 80px;
+    }
+
+    .tituloGrid {
+        font-size: 12px;
+    }
+
+    .contenidoGrid {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    .barraNavM {
+        font-size: 10px;
+    }
+
+    .navbar-toggler {
+        margin-right: 9% !important;
+    }
+
+    .fotoCV {
+        width: 160px;
+    }
+
+    .tituloHero {
+        font-size: 45px;
+        margin-bottom: 10px;
+    }
+
+    .fontBlock {
+        top: -60%;
+    }
+
+    .fontTitle {
+        height: 130px;
+    }
+
+    .subtituloHero {
+        font-size: 12px;
+    }
+
+    .parrafo {
+        font-size: 6px;
+    }
+
+    .ciudad {
+        font-size: 9px;
+        margin-top: 0px;
+        margin-bottom: 10px !important;
+    }
+
+    .mail {
+        font-size: 14px;
+    }
+
+    .divContacto {
+        margin-top: 0px;
+    }
+
+    .icono {
+        font-size: 15px !important;
+    }
+
+    .CV {
+        font-size: 15px;
+    }
+
+    .tituloPortfolio {
+        font-size: 35px;
+        margin-top: 160px;
+    }
+
+    ._tituloPortfolioSobreMi {
+        margin-top: 105px;
+    }
+
+    ._sobreMiP {
+        font-size: 11px;
+        margin-top: 80px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+
+    .goTop {
+        right: -40px;
+    }
+
+    .show .goTopButton {
+        width: 30px;
+        height: 30px;
+    }
+
+    .flecha {
+        font-size: 13px !important;
+    }
+
+    @keyframes popup {
+        0% {
+            width: 0px;
+            height: 0px;
+        }
+
+        50% {
+            width: 40px;
+            height: 40px;
+        }
+
+        100% {
+            width: 30px;
+            height: 30px;
+        }
+    }
+
+    .navbar-toggler {
+        margin-right: 6% !important;
+    }
+
+    .fotoCV {
+        width: 145px;
+    }
+
+    .parrafo {
+        margin-bottom: 5px;
+    }
+
+    .tituloPortfolio {
+        font-size: 30px;
+    }
+
+    ._sobreMiP {
+        font-size: 10px;
+    }
+
+    .tituloGrid {
+        font-size: 10px;
+    }
+
+    .contenidoGrid {
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .goTop {
+        right: -50px;
+    }
+
+    .show .goTopButton {
+        width: 25px;
+        height: 25px;
+    }
+
+    .flecha {
+        font-size: 12px !important;
+    }
+
+    @keyframes popup {
+        0% {
+            width: 0px;
+            height: 0px;
+        }
+
+        50% {
+            width: 30px;
+            height: 30px;
+        }
+
+        100% {
+            width: 25px;
+            height: 25px;
+        }
+    }
+
+    .navbar-toggler {
+        margin-right: 3% !important;
+    }
+
+    .barraPNavM {
+        margin-left: 35px !important;
+    }
+
+    .barraNavM {
+        margin-left: 35px;
+    }
+
+    .lineaNav {
+        margin-left: 35px;
+        width: 85%;
+    }
+
+    .fotoCV {
+        width: 140px;
+        left: 200%;
+    }
+
+    .tituloHero {
+        margin-left: 35px;
+        font-size: 40px;
+    }
+
+    @keyframes mainBlock {
+        0% {
+            width: 0%;
+            left: -30%;
+        }
+
+        50% {
+            width: 65%;
+            left: -30%;
+        }
+
+        100% {
+            width: 0;
+            left: 35%;
+        }
+    }
+
+    .subtituloHero {
+        margin-left: 35px;
+        font-size: 11px;
+    }
+
+    .parrafo {
+        margin-left: 35px;
+        margin-bottom: 10px;
+        width: 30%;
+    }
+
+    .ciudad {
+        margin-left: 35px;
+        margin-bottom: 5px !important;
+    }
+
+    .mail {
+        margin-left: 35px;
+        font-size: 13px;
+    }
+
+    .divContacto {
+        margin-left: 35px;
+    }
+
+    .tituloPortfolio {
+        margin-left: 35px;
+    }
+
+    ._sobreMiP {
+        margin-left: 0px;
+        width: 55%;
+    }
+
+    .portfolioSection {
+        margin-left: 35px;
+    }
+
+    .imgFlyWithUs {
+        width: 75%;
+    }
+
+    .imgWearIt {
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 440px) {
+
+    .goTop {
+        right: -53px;
+    }
+
+    .show .goTopButton {
+        width: 20px;
+        height: 20px;
+    }
+
+    .flecha {
+        font-size: 10px !important;
+    }
+
+    @keyframes popup {
+        0% {
+            width: 0px;
+            height: 0px;
+        }
+
+        50% {
+            width: 25px;
+            height: 25px;
+        }
+
+        100% {
+            width: 20px;
+            height: 20px;
+        }
+    }
+
+    .navbar-toggler {
+        margin-right: 0% !important;
+    }
+
+    .fotoCV {
+        width: 130px;
+        left: 190%;
+    }
+
+    .ciudad {
+        margin-bottom: 0px !important;
+    }
+}
+
+@media screen and (max-width: 381px) {
+
+    .fotoCV {
+        bottom: -100px;
+        left: 170%;
+    }
+
+    .tituloHero {
+        margin-top: 0px;
+    }
+
+    @keyframes mainBlock {
+        0% {
+            width: 0%;
+            left: -30%;
+        }
+
+        50% {
+            width: 60%;
+            left: -30%;
+        }
+
+        100% {
+            width: 0;
+            left: 30%;
+        }
+    }
+
+    .subtituloHero {
+        margin-top: -23px;
+    }
+
+    ._sobreMiP {
+        width: 75%;
+    }
+
+    .tituloGrid {
+        font-size: 9px;
+    }
+
+    .contenidoGrid {
+        font-size: 8px;
+    }
+
+    .imgFlyWithUs {
+        width: 75%;
+    }
+
+    .imgWearIt {
+        max-width: 67%;
+    }
+}
+
+@media screen and (max-width: 355px) {
+
+    .goTop {
+        right: -50px;
+    }
+
+    .show .goTopButton {
+        width: 15px;
+        height: 15px;
+    }
+
+    .flecha {
+        font-size: 8px !important;
+    }
+
+    @keyframes popup {
+        0% {
+            width: 0px;
+            height: 0px;
+        }
+
+        50% {
+            width: 20px;
+            height: 20px;
+        }
+
+        100% {
+            width: 15px;
+            height: 15px;
+        }
+    }
+
+    .navbar-toggler {
+        margin-right: -2% !important;
+    }
+
+    .fotoCV {
+        left: 190%;
+        width: 110px;
+    }
+
+    .ciudad {
+        width: 35%;
+    }
+
+    ._sobreMiP {
+        font-size: 9px;
+    }
+
+    .tituloGrid {
+        font-size: 8px;
+    }
+
+    .contenidoGrid {
+        font-size: 6px;
+    }
+}
+
+@media screen and (max-width: 321px) {
+
+    .barraPNavM {
+        margin-left: 0px !important;
+    }
+
+    .barraNavM {
+        margin-left: 0px;
+    }
+
+    .lineaNav {
+        width: 91%;
+        margin-left: 8px;
+    }
+
+    .fotoCV {
+        left: 170%;
+    }
+
+    .tituloHero {
+        margin-left: 8px;
+    }
+
+    @keyframes mainBlock {
+        0% {
+            width: 0%;
+            left: -40%;
+        }
+
+        50% {
+            width: 60%;
+            left: -40%;
+        }
+
+        100% {
+            width: 0;
+            left: 20%;
+        }
+    }
+
+    .subtituloHero {
+        margin-left: 8px;
+    }
+
+    .parrafo {
+        margin-left: 8px;
+    }
+
+    .ciudad {
+        margin-left: 8px;
+    }
+
+    .mail {
+        margin-left: 8px;
+    }
+
+    .divContacto {
+        margin-left: 8px;
+    }
+
+    .tituloPortfolio {
+        margin-left: 8px;
+    }
+
+    ._tituloPortfolioSobreMi {
+        margin-bottom: 10px;
+    }
+
+
 }

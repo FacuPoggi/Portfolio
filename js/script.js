@@ -1,3 +1,4 @@
+// Animation Scroll
 window.onscroll = () => {
     if (document.documentElement.scrollTop > 100) {
         document.querySelector('.goTop')
