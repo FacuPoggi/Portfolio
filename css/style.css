@@ -333,6 +333,7 @@ body div header nav {
     justify-self: center;
     grid-column: 1;
     align-self: center;
+    row-gap: px;
 }
 
 .proyectos {
@@ -943,7 +944,7 @@ body div header nav {
 @media screen and (max-width: 650px) {
 
     .barraNavM {
-        font-size: 10px;
+        font-size: 13px;
     }
 
     .navbar-toggler {
@@ -972,7 +973,8 @@ body div header nav {
     }
 
     .parrafo {
-        font-size: 6px;
+        font-size: 7px;
+        width: 34%;
     }
 
     .ciudad {
@@ -1129,7 +1131,7 @@ body div header nav {
 
     .tituloHero {
         margin-left: 35px;
-        font-size: 40px;
+        font-size: 42px;
     }
 
     @keyframes mainBlock {
@@ -1151,13 +1153,12 @@ body div header nav {
 
     .subtituloHero {
         margin-left: 35px;
-        font-size: 11px;
+        font-size: 12px;
     }
 
     .parrafo {
         margin-left: 35px;
         margin-bottom: 10px;
-        width: 30%;
     }
 
     .ciudad {
@@ -1297,36 +1298,6 @@ body div header nav {
 
 @media screen and (max-width: 355px) {
 
-    .goTop {
-        right: -50px;
-    }
-
-    .show .goTopButton {
-        width: 15px;
-        height: 15px;
-    }
-
-    .flecha {
-        font-size: 8px !important;
-    }
-
-    @keyframes popup {
-        0% {
-            width: 0px;
-            height: 0px;
-        }
-
-        50% {
-            width: 20px;
-            height: 20px;
-        }
-
-        100% {
-            width: 15px;
-            height: 15px;
-        }
-    }
-
     .navbar-toggler {
         margin-right: -2% !important;
     }
@@ -1341,15 +1312,15 @@ body div header nav {
     }
 
     ._sobreMiP {
-        font-size: 9px;
+        font-size: 11px;
     }
 
     .tituloGrid {
-        font-size: 8px;
+        font-size: 9px;
     }
 
     .contenidoGrid {
-        font-size: 6px;
+        font-size: 7px;
     }
 }
 
