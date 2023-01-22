@@ -363,10 +363,15 @@ body div header nav {
 .imgPortfolio {
     max-width: 100%;
     border-radius: 25px;
+    margin-top: 20px;
 }
 
 .imgWearIt {
     max-width: 60%;
+}
+
+.imgElectronicShop{
+    max-width: 150%;
 }
 
 
